@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="header-section">
+    <header class="header-section none">
         <nav class="nav-section">
-            <img src="./assets/logo.png" alt="">
+            <img class="header-img" src="./assets/logo.png" alt="">
             <ul>
                 <li><a class="home" href="">Home</a></li>
                 <li><a class="Shop" href="">Shop</a></li>
@@ -20,16 +20,17 @@
         </nav>
     </header>
     <main>
-        <section class="section-1">
-            <div class="section-1-div">
-                <div class="section-1-items">
-                <h1 class="section1-title">ALWAYS <span class="h1-span">FRESH <br> FLOWERS</span></h1>
-                <p class="section1-description">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br>blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. </p>
+        <section class="section-1 none">
+            <div class="section-1-div">    
+                <div class="section1-content">
+                    <h1 class="section1-title">ALWAYS <span class="h1-span">FRESH <br> FLOWERS</span></h1>
+                    <p id="section1-description">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br>blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. </p>
                 </div>
-                <img src="./assets/hero-flower.png" alt="">
+            <div class="section1-img">
+                <img class="div-img" src="./assets/hero-flower.png" alt=""></div>
             </div>
         </section>
-        <section class="section-2">
+        <section class="section-2 ">
             <h1 class="section-2-title"><span class="color">Our</span> Plants</h1>
             <p class="section-2-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             <div class="section-2-div">
@@ -83,7 +84,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-3">
+        <section class="section-3 none">
             <div class="section-3-div">
                 <div class="section-3-images">
                 <img class="" src="./assets/flower-store.png" alt="">
@@ -107,9 +108,65 @@
                 </ul>
             </div>
         </section>
+        <section class="section-5 none">
+            <h1 class="section-5-title"><span class="latest">Latest</span> Deals</h1>
+            <p class="section-5-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div class="flowers-shop">
+            <div class="section5-parent">
+                <div class="section5-img">
+                    <h1 class="">60% Off | Bloom Plant</h1>
+                    <a href="#">Shop Now</a>
+                </div>
+                    <div class="section5-imges">
+                    <h1 class="">60% Off | Bloom Plant</h1>
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+            <div class="section5-bigImage">
+                <h1 class="bigImage-title">
+                    25% Off | Zabo Plant
+                </h1>
+                <a href="#">25% Off | Zabo Plant</a>
+            </div>
+            </div>
+        </section>
+        <section class="section-4 none">
+            <div class="join-section">
+                <h1 class="section4-title">Join the colorful Bunch</h1>
+                <input class="section4-input" type="email" name="" placeholder="Write email">
+                <button class="section4-button">Subscribe</button>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="none">
+        <div class="footer">
+            <div class="footer-descriptions">
+                <img src="./assets/logo.png" alt="">
+                <p class="footer-description">Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop. </p>
+            </div>
+            <div class="links">
+                <ol>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Blog</li>
+                    <li>FAQ</li>
+                    <li>Contact Us</li>
+                </ol>
+                <ol>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Help Center</li>
+                </ol>
+            </div>
+            <div class="icons">
+                <img src="./assets/icon-facebook.png" alt="">
+                <img src="./assets/icon-linkedin.png" alt="">
+                <img src="./assets/icon-twitter.png" alt="">
+                <img src="./assets/icon-youtube.png" alt="">
+            </div>
+        </div>
     </footer>
 </body>
 </html>
