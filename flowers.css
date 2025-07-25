@@ -307,6 +307,11 @@ ol li{
 .none{
     display: none;
 }
+
+/* max-width disilam 576px, just 576 px a diye dekhlei propar dekhte parben bhaia. 
+otherwise proper dekha jacche na. keno ei problem ta hoocche bujhte parchi na bhaia.
+ami try korsi onek but fix korte pari nai! */
+
 @media screen and (max-width: 576px){
 
     .header-section{
