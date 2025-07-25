@@ -1,5 +1,8 @@
 /* nav section */
 
+body{
+    overflow-x: hidden;
+}
 
 .nav-section{
     display: flex;
@@ -337,15 +340,20 @@ ol li{
         flex-direction: column-reverse;    
         
     }
+    .section-2-div{
+        grid-template-columns: repeat(2,1fr);
+    }
     .section-2{
         grid-template-columns: repeat(2,1fr);
         width: 100%;
         column-gap: 10px;
 
     }
-    .flowers{
+    /* .flowers{
         margin: 0px 10px;
-    }
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    } */
     .section-3{
         flex-direction: column;
         width: 100%;
