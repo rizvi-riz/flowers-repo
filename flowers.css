@@ -310,7 +310,7 @@ ol li{
 @media screen and (max-width: 576px){
 
     .header-section{
-        width: 100px;
+        width: 100%;
         margin-left: 0px;
     }
     .fa-solid {
@@ -349,11 +349,11 @@ ol li{
         column-gap: 10px;
 
     }
-    /* .flowers{
+    .flowers{
         margin: 0px 10px;
         grid-template-columns: repeat(2,1fr);
         width: 100%;
-    } */
+    }
     .section-3{
         flex-direction: column;
         width: 100%;
@@ -372,6 +372,7 @@ ol li{
     }
     .flowers-shop{
         flex-direction: column;
+        margin: 0px auto;
     }
     .section5-bigImage{
         width: 366px;
